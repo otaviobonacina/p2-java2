@@ -5,6 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import application.repository.QuizRepository;
+import application.model.Quiz; // Importação da classe Quiz
+import java.util.Optional; // Importação da classe Optional
 
 @Controller
 @RequestMapping("/quiz")
